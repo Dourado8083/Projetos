@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>
+Calculadora 
+</title>
+<script type = "text/javascript">
+function calc(){
+
+var n1 = parseFloat(document.getElementById("n1").value)
+var n2 = parseFloat(document.getElementById("n2").value)
+
+
+var op = document.getElementById("opr").value
+
+if(op === "+"){
+
+document.getElementById('result').value = n1+n2;
+
+}
+if(op === "-"){
+
+document.getElementById('result').value = n1-n2;
+
+}
+if(op === "x"){
+
+document.getElementById('result').value = n1*n2;
+
+}
+if(op === "/"){
+
+document.getElementById('result').value = n1/n2;
+
+}
+if(op === "%"){
+
+document.getElementById('result').value = n1%n2;
+
+}
+
+
+
+}
+
+</script>
+</head>
+<body background ="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAgHBwcHCAoHBwcHBw8ICQcKFREWFhURExMYHSggGCYlJxMTITEhMSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw8PDisZFRkrKy0rLS0tKzc3LTctKzc3Ky0tKy03KystKy0rLS0tLSsrLSsrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAbEAEBAQEBAAMAAAAAAAAAAAAAARECAxIhQf/EABoBAQEBAQEBAQAAAAAAAAAAAAACAQMEBwb/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECAxIhE//aAAwDAQACEQMRAD8A+6A/APmoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABUAFARQsBBUAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAFgC4K3G4mAGGGfYLhhjNRqpgw1FRgAAAAAAAAAAAAAAAAAAAAAAAAAANRlqEIrWMtxcXGcMbxZFercc5G8bnDpPNfPFVOK81jNejvjHHqYjrnE9c4wjWJXPHNAGCAAAAAAAAAAAAAAAAAAAAAAAAqooK1GFVFSukrpy5SunH468105eny53Hb4SOXnY6XuY9fGY9nPrI5e0keTt6fX0eXuuPlx5vLZrFZrTLy2PPURqpUsQAAAAAAAAAAAAAAAAAAAAAAABYgDUVkbrddNb56cllXKqV6Oe6vXp9PP8l1157q/0XrrXO1pmp6+uVqCDmnVQRNaAMAAAAAAAAAAAAAAAAAAAAAAAABUAXV1kDWpV1mKuUXRFXrERURQRaiKAA0AAAAAAAAAAAAAAAAAAAAAAAAAAABVZG6KEG6wANEASAA0AAAAAAAAAAAAAAAAAAAAAAABUAAAAAYKgCiAAA0AAAAAAAAAAAAgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z">
+<h1>
+Calculadora pwr
+</h1>
+Numero 1: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id = "n1" maxlength = "7" value = "0.0">
+<br><br>
+Numero 2:&nbsp; <input type = "text" id = "n2" maxlength = "7" value = "0.0"><br><br>
+<select id = "opr">
+	<option value = "+">+</option>
+	<option value = "-">-</option>
+	<option value = "x">x</option>
+	<option value = "/">/</option>
+	<option value = "%">%</option>
+</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type = "Button" value = "=" onclick="calc();">
+<br>
+<br>
+Resultado: <input type = "text" id = "result"><br><br>
+</body>
+</html>
