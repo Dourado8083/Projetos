@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="./style.css" type="text/css" rel="stylesheet">
+	<title>Forms</title>
+</head>
+<body>
+<section class="content">
+	<div class="contato">
+	<h3>Formulário de contato</h3>
+
+	<form class="form" method="POST" action="./email.php">
+		<input type="field" name="name" placeholder="nome">
+		<input type="field" name="email" placeholder="E-mail">
+		<textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui."></textarea>
+		<input class="field" type="submit" value="Enviar">
+	</form>
+	</div>
+</section>
+</body>
+</html>
+<!--CSS-->
+body{
+	font-family: sans-serif;
+}
+.content{
+	display: flex;
+justify-content: center;
+}
+.contato{
+	width: 100%;
+	max-width: 500px;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+}
+.field{
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+textarea{
+	height: 150px;
+}
