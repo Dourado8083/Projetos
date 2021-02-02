@@ -196,6 +196,7 @@ margin-bottom:.8rem;
 }
 .button.cancel{
 color: var(--red);
+width:22%;
 border: 2px var(--red) solid;
 border-radius: 0.25rem;
 height: 50px;
