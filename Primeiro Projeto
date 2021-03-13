@@ -1,0 +1,53 @@
+<!doctype html> 
+<html lang="pt-br"> 
+<head> 
+  
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+ <!--<link href="style.css" type="text/css" rel="stylesheet"> -->
+ <link rel="stylesheet"  
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2M Zw1T" crossorigin="anonymous"> 
+ <title>Curriculo Do Gustavo</title> 
+</head> 
+<body  
+ <div class="container"> 
+ <div class="row"> 
+ <div class="col-4"> 
+  
+ </div> 
+ <div class="col-9"> 
+ <h1>Currículo do Gustavo</h1> 
+ <P>Nome:Gustavo Dourado Santos</P> 
+ <P>Idade:19 anos</P> 
+ <p>Estado Civil: Solteiro</p>
+ <P>objetivo Profissional: Quero atuar na área de Programador para desenvolver os  conhecimentos adquiridos em minha formação </P> 
+ <p>Endereço: Rua Alameda Pintassilgo<br/> Araçariguama/SP  </p> 
+ <p>Telefone: (11) 956594342</p> 
+ </div> 
+ </div> 
+  
+ <div class="row"> 
+ <div class="col"> 
+ <br/> 
+ <h2> Formação Acadêmica</h2> 
+ <ul> 
+ <li>Ensino Medio Completo em 2019</li> 
+ <li>Cursando Superior: Ciencia da Computação</li> 
+  
+ </ul> 
+ </div> 
+ </div>
+  
+ <div class="row"> 
+ <div class="col"> 
+ <br/> 
+ <h2> Experiência Profissional</h2> 
+ <ul> 
+ <li>Wessel Importação e exportação </li>  </li> 
+ </ul> 
+ </div> 
+ </div> 
+  
+  
+</body> 
+</html>
