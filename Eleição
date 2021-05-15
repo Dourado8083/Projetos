@@ -1,0 +1,14 @@
+<script>
+var idade =  14
+if(idade < 16) {
+console.log('Não vota')
+// vamos usar console.log para verificar 
+}else if(idade < 18 || idade > 65){ 
+//verificar ess comando or
+console.log('voto opcional')
+}
+else{
+console.log('voto obrigatorio')
+}
+//este programa esta 'errado',podemos votar com 16 anos ,a logica esta errado,voto opcional
+</script>
